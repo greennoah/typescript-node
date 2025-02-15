@@ -6,6 +6,21 @@
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"esbenp.prettier-vscode",
+				"dbaeumer.vscode-eslint",
+				"EditorConfig.EditorConfig",
+				"bradlc.vscode-tailwindcss",
+				"formulahendry.auto-close-tag",
+				"formulahendry.auto-rename-tag",
+				"streetsidesoftware.code-spell-checker",
+				"eamodio.gitlens",
+				"SuhelMakkad.shadcn-ui"
+			]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
